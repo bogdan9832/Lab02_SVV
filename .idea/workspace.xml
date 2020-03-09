@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25fdc15-5293-425d-9de6-a92c62616055" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ro.lab2svv/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro.lab2svv/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
       <updated>1583743170675</updated>
       <workItem from="1583743174635" duration="223000" />
       <workItem from="1583743417862" duration="528000" />
-      <workItem from="1583744675344" duration="424000" />
+      <workItem from="1583744675344" duration="694000" />
     </task>
     <servers />
   </component>
