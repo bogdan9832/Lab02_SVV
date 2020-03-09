@@ -1,4 +1,4 @@
-package org.example;
+package ro.lab2svv;
 
 import static org.junit.Assert.assertTrue;
 
