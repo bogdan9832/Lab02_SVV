@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25fdc15-5293-425d-9de6-a92c62616055" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/console/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/HasID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/domain/HasID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/domain/Nota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/domain/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Tema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/domain/Tema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/AbstractFileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/AbstractXMLRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/CRUDRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/NotaFileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/NotaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/NotaXMLRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/StudentFileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/StudentXMLRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/TemaFileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/TemaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/TemaXMLRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/NotaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/validation/NotaValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/validation/StudentValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/TemaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/validation/TemaValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/validation/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/validation/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ro.lab2svv/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/lab2svv/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +54,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ro/lab2svv" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ro.lab2svv" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\cbie2\AppData\Roaming\Subversion</configuration>
@@ -38,7 +74,7 @@
       <updated>1583743170675</updated>
       <workItem from="1583743174635" duration="223000" />
       <workItem from="1583743417862" duration="528000" />
-      <workItem from="1583744675344" duration="694000" />
+      <workItem from="1583744675344" duration="2116000" />
     </task>
     <servers />
   </component>
@@ -50,6 +86,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583743308803" />
+    <state x="656" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583746005495">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583746005495" />
+    <state x="756" y="384" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583746009349">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="756" y="384" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1583746009349" />
+    <state x="756" y="405" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1583746006567">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="756" y="405" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1050@0.0.1920.1050" timestamp="1583746006567" />
     <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1583744703192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -74,14 +122,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583743295002" />
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog" timestamp="1583746208231">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583746208231" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1583743808568">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1583743808568" />
+    <state x="776" y="303" key="chooseDestDirectoryDialog" timestamp="1583745976167">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="776" y="303" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583745976167" />
     <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1583744691794">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583744691794" />
+    <state x="656" y="261" width="737" height="606" key="find.popup" timestamp="1583746281627">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="261" width="737" height="606" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1583746281627" />
     <state x="790" y="316" key="svn.repositoryBrowser" timestamp="1583743917574">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
