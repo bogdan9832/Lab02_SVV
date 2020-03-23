@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25fdc15-5293-425d-9de6-a92c62616055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Lab02_SVV.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ro/lab2svv/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/lab2svv/AppTest.java" afterDir="false" />
     </list>
