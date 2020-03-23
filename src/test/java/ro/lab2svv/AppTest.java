@@ -7,6 +7,7 @@ import org.junit.Test;
 import ro.lab2svv.domain.Student;
 import ro.lab2svv.domain.Tema;
 import ro.lab2svv.validation.StudentValidator;
+import ro.lab2svv.validation.TemaValidator;
 
 
 /**
