@@ -5,6 +5,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 import ro.lab2svv.domain.Student;
+import ro.lab2svv.domain.Tema;
 import ro.lab2svv.validation.StudentValidator;
 
 
@@ -34,7 +35,17 @@ public class AppTest
         }catch (Exception e){
             assertTrue(true);
         }
+    }
 
-
+    @Test
+    public void test2AddAssignmentMethod(){
+        ro.lab2svv.repository.TemaRepository repo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
+        try {
+            repo.save(new Tema("1", "Description", 6, 2));
+            repo.save(new Tema("1", "Description", 6, 2));
+            assertTrue(false);
+        }catch (Exception e){
+            assertTrue(true);
+        }
     }
 }
