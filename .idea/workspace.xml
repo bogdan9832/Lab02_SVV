@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25fdc15-5293-425d-9de6-a92c62616055" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ro/lab2svv/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/lab2svv/AppTest.java" afterDir="false" />
     </list>
@@ -48,7 +47,7 @@
       <workItem from="1583743417862" duration="528000" />
       <workItem from="1583744675344" duration="2116000" />
       <workItem from="1584954846908" duration="558000" />
-      <workItem from="1585988418107" duration="850000" />
+      <workItem from="1585988418107" duration="1363000" />
     </task>
     <servers />
   </component>
@@ -109,6 +108,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1583743808568" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1585989809620">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1585989809620" />
     <state x="776" y="303" key="chooseDestDirectoryDialog" timestamp="1583745976167">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

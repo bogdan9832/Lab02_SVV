@@ -37,7 +37,17 @@ public class AppTest
             assertTrue(true);
         }
     }
-
+    @Test
+    public void shouldBeOnlyOneFalse(){
+        ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
+        try {
+            repo.save(new Student("1", "Nume", 932));
+            repo.save(new Student("1", "Nume", 932));
+            assertTrue(true);
+        }catch (Exception e){
+            assertTrue(false);
+        }
+    }
     @Test
     public void shouldBeOnlyOneTrue(){
         ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
@@ -45,7 +55,7 @@ public class AppTest
             repo.save(new Student("1", "Nume", 932));
             assertTrue(true);
         }catch (Exception e){
-            assertTrue(false;
+            assertTrue(false);
         }
     }
     @Test
@@ -55,7 +65,7 @@ public class AppTest
             repo.save(new Student("1", "Nume", 932));
             assertTrue(true);
         }catch (Exception e){
-            assertTrue(false;
+            assertTrue(false);
         }
     }
     @Test
@@ -75,7 +85,7 @@ public class AppTest
             repo.save(new Student("1", "Nume", 932));
             assertTrue(true);
         }catch (Exception e){
-            assertTrue(false;
+            assertTrue(false);
         }
     }
     @Test
@@ -95,7 +105,7 @@ public class AppTest
             repo.save(new Student("1", "Nume", 932));
             assertTrue(true);
         }catch (Exception e){
-            assertTrue(false;
+            assertTrue(false);
         }
     }
     @Test
