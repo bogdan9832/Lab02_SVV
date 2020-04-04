@@ -32,17 +32,20 @@ public class AppTest
         assertTrue(repo.save(new Student("1", "Nume", 932)) != null);
         assertTrue(repo.save(new Student("1", "Nume", 932)) == null);
     }
+
+
+
     @Test
     public void shouldBeOnlyOneFalse(){
         ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
         assertTrue(repo.save(new Student("1", "Nume", 932)) != null);
-        assertTrue(repo.save(new Student("2", "Nume", 932)) != null);
+        assertTrue(repo.save(new Student("1", "Nume", 932)) == null);
     }
     @Test
     public void shouldBeOnlyOneTrue(){
         ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
         assertTrue(repo.save(new Student("1", "Nume", 932)) != null);
-        assertTrue(repo.save(new Student("1", "Nume", 932)) == null);
+        assertTrue(repo.save(new Student("2", "Nume", 932)) != null);
     }
     @Test
     public void shouldHaveIdTrue(){
