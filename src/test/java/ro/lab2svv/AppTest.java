@@ -112,7 +112,7 @@ public class AppTest
     public void shouldHaveGroupFalse(){
         ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
         try {
-            repo.save(new Student("1", "Nume", null));
+            repo.save(new Student("1", "Nume", -1));
             assertTrue(false);
         }catch (Exception e){
             assertTrue(true);
