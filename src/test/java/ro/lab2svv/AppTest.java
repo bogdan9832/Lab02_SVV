@@ -99,4 +99,43 @@ public class AppTest
             assertTrue(true);
         }
     }
+
+
+    @Test
+    public void shouldHaveIdTrue(){
+        ro.lab2svv.repository.TemaRepository repo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
+        assertTrue(repo.save(new Tema("1", "Nume", 2, 1)) != null);
+
+    }
+    @Test
+    public void shouldHaveIdFalse(){
+        ro.lab2svv.repository.TemaRepository repo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
+        assertTrue(repo.save(new Tema(null, "Nume", 2, 1)) == null);
+    }
+    @Test
+    public void shouldHaveDescTrue(){
+        ro.lab2svv.repository.TemaRepository repo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
+        assertTrue(repo.save(new Tema("1", "Desc", 2, 1)) != null);
+    }
+    @Test
+    public void shouldHaveDescFalse(){
+        ro.lab2svv.repository.TemaRepository repo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
+        assertTrue(repo.save(new Tema("1", null, 2, 1)) == null);
+    }
+    @Test
+    public void shouldHaveDeadlineTrue(){
+        ro.lab2svv.repository.TemaRepository repo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
+        assertTrue(repo.save(new Tema("1", "Desc", 2, 1)) != null);
+        assertTrue(repo.save(new Tema("2", "Desc", -1, 1)) == null);
+        assertTrue(repo.save(new Tema("3", "Desc", 1, 2)) == null);
+    }
+    @Test
+    public void shouldHaveStartlineTrue(){
+        ro.lab2svv.repository.TemaRepository repo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
+        assertTrue(repo.save(new Tema("1", "Name", 2, 1)) != null);
+        assertTrue(repo.save(new Tema("1", "Name", 2, -1)) == null);
+        assertTrue(repo.save(new Tema("1", "Name", 2, 3)) == null);
+    }
+
+
 }
