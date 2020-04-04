@@ -75,7 +75,7 @@ public class AppTest
             repo.save(new Student(null, "Nume", 932));
             assertTrue(false);
         }catch (Exception e){
-            assertTrue(true;
+            assertTrue(true);
         }
     }
     @Test
@@ -95,7 +95,7 @@ public class AppTest
             repo.save(new Student("1", null, 932));
             assertTrue(false);
         }catch (Exception e){
-            assertTrue(true;
+            assertTrue(true);
         }
     }
     @Test
@@ -115,7 +115,7 @@ public class AppTest
             repo.save(new Student("1", "Nume", null));
             assertTrue(false);
         }catch (Exception e){
-            assertTrue(true;
+            assertTrue(true);
         }
     }
 
