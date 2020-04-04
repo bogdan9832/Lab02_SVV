@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25fdc15-5293-425d-9de6-a92c62616055" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Lab02_SVV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab02_SVV.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ro/lab2svv/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/lab2svv/AppTest.java" afterDir="false" />
     </list>
@@ -33,6 +34,31 @@
       <recent name="ro.lab2svv" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Lab02 []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\cbie2\AppData\Roaming\Subversion</configuration>
   </component>
@@ -47,7 +73,7 @@
       <workItem from="1583743417862" duration="528000" />
       <workItem from="1583744675344" duration="2116000" />
       <workItem from="1584954846908" duration="558000" />
-      <workItem from="1585988418107" duration="1536000" />
+      <workItem from="1585988418107" duration="2170000" />
     </task>
     <servers />
   </component>
@@ -55,10 +81,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583743308803">
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585990215566">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583743308803" />
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585990215566" />
     <state x="773" y="384" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585988458599">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -76,10 +102,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="756" y="405" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1050@0.0.1920.1050" timestamp="1583746006567" />
-    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1583744703192">
+    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1585990206622">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1583744703192" />
+    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1585990206622" />
     <state x="830" y="418" key="Github.ShareDialog" timestamp="1583743828823">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
