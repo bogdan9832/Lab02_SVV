@@ -39,6 +39,78 @@ public class AppTest
     }
 
     @Test
+    public void shouldBeOnlyOneTrue(){
+        ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
+        try {
+            repo.save(new Student("1", "Nume", 932));
+            assertTrue(true);
+        }catch (Exception e){
+            assertTrue(false;
+        }
+    }
+    @Test
+    public void shouldHaveIdTrue(){
+        ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
+        try {
+            repo.save(new Student("1", "Nume", 932));
+            assertTrue(true);
+        }catch (Exception e){
+            assertTrue(false;
+        }
+    }
+    @Test
+    public void shouldHaveIdFalse(){
+        ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
+        try {
+            repo.save(new Student(null, "Nume", 932));
+            assertTrue(false);
+        }catch (Exception e){
+            assertTrue(true;
+        }
+    }
+    @Test
+    public void shouldHaveNameTrue(){
+        ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
+        try {
+            repo.save(new Student("1", "Nume", 932));
+            assertTrue(true);
+        }catch (Exception e){
+            assertTrue(false;
+        }
+    }
+    @Test
+    public void shouldHaveNameFalse(){
+        ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
+        try {
+            repo.save(new Student("1", null, 932));
+            assertTrue(false);
+        }catch (Exception e){
+            assertTrue(true;
+        }
+    }
+    @Test
+    public void shouldHaveGroupTrue(){
+        ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
+        try {
+            repo.save(new Student("1", "Nume", 932));
+            assertTrue(true);
+        }catch (Exception e){
+            assertTrue(false;
+        }
+    }
+    @Test
+    public void shouldHaveGroupFalse(){
+        ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
+        try {
+            repo.save(new Student("1", "Nume", null));
+            assertTrue(false);
+        }catch (Exception e){
+            assertTrue(true;
+        }
+    }
+
+
+    @Test
     public void testAddAssignmentMethod(){
         ro.lab2svv.repository.TemaRepository repo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
         repo.save(new Tema("1","Description", 6, 2));
