@@ -91,13 +91,11 @@ public class AppTest
     @Test
     public void test2AddAssignmentMethod(){
         ro.lab2svv.repository.TemaRepository repo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
-        try {
-            repo.save(new Tema("1", "Description", 6, 2));
-            repo.save(new Tema("1", "Description", 6, 2));
+
+        assertTrue(repo.save(new Tema("1", "Description", 6, 2)) != null);
+        assertTrue(repo.save(new Tema("1", "Description", 6, 2)) == null);
             assertTrue(false);
-        }catch (Exception e){
-            assertTrue(true);
-        }
+
     }
 
 
