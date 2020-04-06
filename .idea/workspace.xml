@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25fdc15-5293-425d-9de6-a92c62616055" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/lab2svv/validation/TemaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/lab2svv/validation/TemaValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ro/lab2svv/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/lab2svv/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +73,7 @@
       <workItem from="1583744675344" duration="2116000" />
       <workItem from="1584954846908" duration="558000" />
       <workItem from="1585988418107" duration="3347000" />
-      <workItem from="1586154037033" duration="617000" />
+      <workItem from="1586154037033" duration="769000" />
     </task>
     <servers />
   </component>

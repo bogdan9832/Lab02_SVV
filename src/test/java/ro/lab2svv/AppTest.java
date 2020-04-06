@@ -94,7 +94,6 @@ public class AppTest
 
         assertTrue(repo.save(new Tema("1", "Description", 6, 2)) != null);
         assertTrue(repo.save(new Tema("1", "Description", 6, 2)) == null);
-            assertTrue(false);
 
     }
 
