@@ -2,12 +2,14 @@ package ro.lab2svv;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 import ro.lab2svv.domain.Student;
 import ro.lab2svv.domain.Tema;
+import ro.lab2svv.domain.Nota;
+import ro.lab2svv.domain.Pair;
 import ro.lab2svv.validation.StudentValidator;
 import ro.lab2svv.validation.TemaValidator;
+import ro.lab2svv.validation.NotaValidator;
 
 
 /**
@@ -133,6 +135,20 @@ public class AppTest
         assertTrue(repo.save(new Tema("1", "Name", 2, -1)) == null);
         assertTrue(repo.save(new Tema("1", "Name", 2, 3)) == null);
     }
+
+    @Test
+    public void addGradeWB(){
+        ro.lab2svv.repository.NotaRepository repo = new ro.lab2svv.repository.NotaRepository(new NotaValidator());
+        assertTrue(repo.save(new Nota(new Pair<String, String>(null,null), 10, 5, "")) == null);
+        assertTrue(repo.save(new Nota(new Pair<String, String>("1","1"), 11, 5, "")) == null);
+        assertTrue(repo.save(new Nota(new Pair<String, String>("1","1"), -1, 5, "")) == null);
+        assertTrue(repo.save(new Nota(new Pair<String, String>("1","1"), 10, -1, "")) == null);
+    } @Test
+        public void addGradeBB(){
+            ro.lab2svv.repository.NotaRepository repo = new ro.lab2svv.repository.NotaRepository(new NotaValidator());
+            assertTrue(repo.save(new Nota(new Pair<String, String>("1","1"), 10, 5, "")) != null);
+            assertTrue(repo.save(new Nota(new Pair<String, String>("1","1"), 10, 5, "")) == null);
+        }
 
 
 }
