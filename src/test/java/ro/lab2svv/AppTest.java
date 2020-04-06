@@ -102,13 +102,13 @@ public class AppTest
 
 
     @Test
-    public void shouldHaveIdTrue(){
+    public void TemaShouldHaveIdTrue(){
         ro.lab2svv.repository.TemaRepository repo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
         assertTrue(repo.save(new Tema("1", "Nume", 2, 1)) != null);
 
     }
     @Test
-    public void shouldHaveIdFalse(){
+    public void TemaShouldHaveIdFalse(){
         ro.lab2svv.repository.TemaRepository repo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
         assertTrue(repo.save(new Tema(null, "Nume", 2, 1)) == null);
     }
