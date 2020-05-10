@@ -150,5 +150,30 @@ public class AppTest
             assertTrue(repo.save(new Nota(new Pair<String, String>("1","1"), 10, 5, "")) == null);
         }
 
+     @Test
+     public void testAddStudent()
+     {
+         ro.lab2svv.repository.StudentRepository repo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
+         assertTrue(repo.save(new Student("1", "Name", 932)) != null);
+     }
 
+    @Test
+    public void integrationAddAssignmentStundet()
+    {
+        ro.lab2svv.repository.StudentRepository studRepo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
+        ro.lab2svv.repository.TemaRepository temaRepo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
+        assertTrue(studRepo.save(new Student("1", "Name", 932)) != null);
+        assertTrue(temaRepo.save(new Tema("1", "Name", 2, 1)) != null);
+    }
+
+    @Test
+    public void integrationAddAssignmentStudentGrade()
+    {
+        ro.lab2svv.repository.StudentRepository studRepo = new ro.lab2svv.repository.StudentRepository(new StudentValidator());
+        ro.lab2svv.repository.TemaRepository temaRepo = new ro.lab2svv.repository.TemaRepository(new TemaValidator());
+        ro.lab2svv.repository.NotaRepository notaRepo = new ro.lab2svv.repository.NotaRepository(new NotaValidator());
+        assertTrue(studRepo.save(new Student("1", "Name", 932)) != null);
+        assertTrue(temaRepo.save(new Tema("1", "Name", 2, 1)) != null);
+        assertTrue(notaRepo.save(new Nota(new Pair<String, String>("1","1"), 10, 2, "Good")) != null);
+    }
 }

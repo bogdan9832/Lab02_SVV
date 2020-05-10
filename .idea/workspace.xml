@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25fdc15-5293-425d-9de6-a92c62616055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ro/lab2svv/BigBangIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab02_SVV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab02_SVV.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ro/lab2svv/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/lab2svv/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,10 +85,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586156908070" />
-    <state x="773" y="384" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585988458599">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589121111617">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1584953851363" />
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1589121111617" />
     <state x="773" y="384" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585988458599" />
     <state x="656" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583746005495">
       <screen x="0" y="0" width="1920" height="1050" />
